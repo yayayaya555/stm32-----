@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\PWM -I..\HARDWARE\ADC -I..\HARDWARE\KEY -I..\HARDWARE\PID -I..\HARDWARE\OLED -I..\SYSTEM\usart -I..\HARDWARE\Tim2_AD
+-I "E:\1-2019毕业设计-张烨\局部电路及其程序控制\Bi-directional ACDC\DCAC程序\开环1 - 副本\USER\RTE"
+-I F:\mdk_514\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I F:\mdk_514\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\tim2_ad.o --omf_browse ..\obj\tim2_ad.crf --depend ..\obj\tim2_ad.d "..\HARDWARE\Tim2_AD\Tim2_AD.c"
